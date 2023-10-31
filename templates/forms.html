@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+<!--  -->
+{% load crispy_forms_tags %}
+<!--  -->
+{% block content %}
+<div>
+	<h1>Crispy Forms</h1>
+	<div class="my-5">
+		<form action="">{{ form|crispy }}</form>
+	</div>
+</div>
+{% endblock %}
